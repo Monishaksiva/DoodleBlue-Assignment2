@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>New Page</title>
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <button id="count">Count</button>
+    <label id="plus">+1</label>
+    <script>
+        var countcell = 0;
+        const countButton = document.getElementById("count");
+        const plusLabel = document.getElementById("plus");
+        countButton.addEventListener("click", function() {
+            countcell++;
+            plusLabel.textContent = countcell;
+        }); 
+        var count = 0;
+
+    </script>
+</body>
+</html>
